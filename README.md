@@ -48,7 +48,6 @@ for now I have none and do not require one
 
 #### Features / Routes / Processes
 
-- 
 - GET : `/hello` - specific route to hit
 - GET :
 - POST :
@@ -62,4 +61,4 @@ for now I have none and do not require one
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+![Alt text](assets/serverlessAPIWhiteboard.png)
