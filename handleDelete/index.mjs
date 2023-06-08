@@ -10,7 +10,7 @@ const personModel = dynamoose.model('peoples', schema); // 'peoples' is the mode
 export const handler = async (event) => {
   let id = event.pathParameters.id;
 
-  const response = { statusCode: null, body: null, };
+  const response = { statusCode: null, body: null };
 
   try {
     await personModel.delete(id);

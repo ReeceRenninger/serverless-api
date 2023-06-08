@@ -10,7 +10,7 @@ const personModel = dynamoose.model('peoples', schema); // 'peoples' is the mode
 export const handler = async (event) => {
 //Cat.scan("breed").contains("Terrier").exec() // will scan all items and filter all items where the key `breed` contains `Terrier`
 
-  const response = { statusCode: null, body: null, };
+  const response = { statusCode: null, body: null };
   
   try {
     let id = event.pathParameters.id;

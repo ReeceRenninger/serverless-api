@@ -11,7 +11,7 @@ export const handler = async (event) => {
   console.log('this is the body event', event.body);
   // TODO implement
 
-  const response = { statusCode: null, body: null, };
+  const response = { statusCode: null, body: null };
 
   try {
     let results = await personModel.scan().exec(); //scan.exec allows for a true GET ALL
