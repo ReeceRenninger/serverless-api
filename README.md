@@ -48,11 +48,11 @@ for now I have none and do not require one
 
 #### Features / Routes / Processes
 
-- GET : `/hello` - specific route to hit
-- GET :
-- POST :
-- PUT :
-- DELETE :
+- GET : `/people` - grab all people in DB
+- GET : `/people/##` - grabl one person from DB by ID
+- POST : `/people` - create new person into DB
+- PUT : `/people/##` - update a person in DB by ID
+- DELETE : `/people/##` - delete person in DB by ID
 
 
 #### Tests
