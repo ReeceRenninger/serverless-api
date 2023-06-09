@@ -8,7 +8,7 @@ const schema = new dynamoose.Schema({
 const personModel = dynamoose.model('peoples', schema); // 'peoples' is the model taking the db name and schema above
 
 export const handler = async (event) => {
-//Cat.scan("breed").contains("Terrier").exec() // will scan all items and filter all items where the key `breed` contains `Terrier`
+//myModel.scan("breed").contains("Terrier").exec() // will scan all items and filter all items where the key `breed` contains `Terrier`
 
   const response = { statusCode: null, body: null };
   
